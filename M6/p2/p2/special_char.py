@@ -11,7 +11,7 @@ def main():
     var_b = " "
     for char in var_a:
         if char in "!, @, #, $ , %, ^, &, *":
-            var_b = var_b + " "
+            var_b = var_b +" "
         else:
             var_b = var_b + char
     print(var_b)
