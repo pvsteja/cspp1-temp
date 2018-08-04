@@ -8,7 +8,11 @@ def main():
     '''
     Read number from the input, store it in variable num.
     '''
-    num = int(input())
-
+    num_a = int(input())
+    if num_a%3==0:
+       num_a=="fizz"
+    else
+       num_a==num_a 
+    print(num_a)
 if __name__ == "__main__":
     main()
