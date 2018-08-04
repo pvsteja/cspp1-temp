@@ -12,12 +12,12 @@ def main():
     i = 1
     while i <= num_a:
         if (i%3 == 0) and (i%5 == 0):
-            print("buzz")
-            print("fizz")
+            print("Buzz")
+            print("Fizz")
         elif i%3 == 0:
-            print("fizz")
+            print("Fizz")
         elif i%5 == 0:
-            print("buzz")
+            print("Buzz")
         else:
             print(i)
         i += 1
