@@ -10,7 +10,7 @@ def main():
     var_a = input("")
     var_b = ""
     for char in var_a:
-        if char in "!, @, #, $ , %, ^, &, *":
+        if char in "!@#$%^&*":
             var_b = var_b +" "
         else:
             var_b = var_b + char
